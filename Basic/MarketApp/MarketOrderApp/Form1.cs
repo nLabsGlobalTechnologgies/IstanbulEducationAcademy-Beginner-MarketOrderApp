@@ -214,7 +214,6 @@ namespace MarketOrderApp
             {
                 MessageBox.Show(message, information, MessageBoxButtons.OK, MessageBoxIcon.Question);
                 ExportToExcel(message);
-                return;
                 list = new List<Basket>();
                 ShowBasket();
             }
