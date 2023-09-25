@@ -24,7 +24,7 @@ namespace MarketOrderApp
             password = login.Password;
             login.ShowDialog();
             this.Hide();
-            label2.Text = $"Hoş Geldin : {login.UserName} Rol : {login.UserName}";
+            label2.Text = $"Hoş Geldin : {userName} Rol : {userName}";
             TotalBasket();
         }
 
