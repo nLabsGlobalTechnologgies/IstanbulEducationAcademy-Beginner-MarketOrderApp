@@ -187,7 +187,7 @@ namespace MarketOrderApp
             //or you export to excell this COde Bottom Code
 
             // Active User on the Computer Code
-            //Export To Desktop Save Excell File and DateTime this folder name example payment_Datetime.Now example payment_12.12.2025.xlsx
+            //Export To Desktop Save Excell File and DateTime this file name example payment_Datetime.Now example payment_12.12.2025.xlsx
             WindowsIdentity currentUser = WindowsIdentity.GetCurrent();
             string userName = currentUser.Name.Split('\\')[1];
             string desktopPath = @$"C:\Users\{userName}\Desktop\";
